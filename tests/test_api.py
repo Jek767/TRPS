@@ -1,6 +1,11 @@
 """
 10 модульных тестов для REST API средства мониторинга.
 """
+import sys
+import os
+# Принудительно добавляем корень проекта в пути поиска
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import pytest
 from fastapi.testclient import TestClient
 from main import app, db
