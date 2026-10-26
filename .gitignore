@@ -1,0 +1,17 @@
+   # Виртуальное окружение
+   venv/
+   .venv/
+
+   # Кэш Python и pytest
+   __pycache__/
+   *.py[cod]
+   .pytest_cache/
+
+   # IDE
+   .idea/
+   *.swp
+   *.swo
+
+   # Логи и временные файлы
+   *.log
+   .env
